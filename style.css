@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fixbtn{
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+   
+}
+.fixbtn button{
+    background-color: black;
+    color: white;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid orange;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: 'Red Rose',cursive;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.fixbtn button:hover{
+    background-color: orange;
+    color: black;
+}
+.firstblock{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: center;
+}
+.logotext{
+    color: orange;
+    font-family: "Rowdies",cursive;
+    font-size: 35px;
+    padding: 50px 10px 5px 10px;
+    transition: 0.5s;
+}
+.logodetail{
+    color: white;
+    font-family: 'Red Rose', cursive;
+    text-transform: uppercase;
+    padding: 0 10px 60px 10px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.logotext:hover{
+    font-size: 50px;
+    cursor: default;
+    color: white;
+    
+    
+}
+.logotext:hover + .logodetail{
+    font-size: 10px;
+    color: gray;
+    
+}
+.logodetail:hover{
+    font-size: 10px;
+    color: black;
+}
+.secondblock{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(27deg, yellow,orange,pink);
+    text-align: center;
+    border-bottom: 1px solid black;
+    transition: 0.6s;
+}
+.secondcont{
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Red Rose', cursive;
+    transition: 0.5s;
+}
+.secondblock:hover{
+    background-image: linear-gradient(20deg, rgb(133, 72, 3),black,rgb(14, 146, 14));
+    cursor: default;
+}
+.secondcont:hover{
+    font-size: 16px;
+    padding: 12px;
+    color: white;
+}
+.thirdblock{
+    background-color: white;
+    text-align: center;
+    border-bottom: 2px solid orange;
+    width: 100%;
+}
+.thirdcont{
+    padding: 15px;
+    font-size: 14px;
+    font-family: 'Red Rose', cursive;
+    cursor: default;
+}
+.fourthblock{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.fourthhead{
+    font-size: 17px;
+    font-family: 'Russo One', sans-serif;
+    padding: 15px 15px 5px 15px;
+    /* text-align: center; */
+    color: orange;
+}
+.fourthcont{
+    padding: 10px 10px 20px 10px;
+}
+.fourthcont ul li{
+    font-size: 14px;
+    font-family: 'Red Rose', cursive;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+.fifthblock{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid black;
+
+}
+.fifthhead{
+    font-family: 'Russo One', sans-serif;
+    font-size: 17px;
+    padding: 15px 15px 5px 15px;
+
+}
+.fifthcont{
+    font-family: 'Red Rose', cursive; 
+    padding: 10px 10px 20px 10px;
+    font-size: 14px;
+}
+
+.downloadblock{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: center;
+    
+}
+.downloadhead{
+    color: orange;
+    font-family: 'Russo One', sans-serif;
+    padding: 20px 20px 10px 20px;
+    font-size: 22px;
+}
+
+.downloadsubhead{
+    color: white;
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    padding: 10px;
+}
+.dversion{
+    color: white;
+    font-family: 'Red Rose',cursive;
+    padding: 10px;
+    font-size: 15px;
+}
+.links a{
+    color: orange;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.links{
+    padding: 10px;
+}
+.links a:hover{
+    color: rgb(255, 90, 90);
+}
+
+.documentation{
+    background-color: rgb(17, 17, 17);
+    /* border-top: 2px dashed orange; */
+    text-align: center;
+}
+.dochead{
+    color: orange;
+    font-family: 'Russo One', sans-serif;
+    padding: 20px 20px 10px 20px;
+    font-size: 22px;
+}
+
+.docsubhead{
+    color: white;
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+    padding: 10px;
+}
+.line{
+    color: orange;
+    
+}
+
+
+@media (max-width: 400px){
+    .logotext{
+        font-size: 30px;
+    }
+    .logodetail{
+        font-size: 12px;
+    }
+}
+@media (max-width: 350px){
+    .secondcont{
+        font-size: 12px;
+
+    }
+    .thirdcont{
+        font-size: 12px;
+
+    }
+    .fifthcont{
+        font-size: 12px;
+
+    }
+    .fourthcont ul li{
+        font-size: 12px;
+    }
+}
